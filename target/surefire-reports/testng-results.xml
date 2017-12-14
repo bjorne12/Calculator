@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="30" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="493" started-at="2017-12-13T10:53:26Z" finished-at="2017-12-13T10:53:26Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="493" started-at="2017-12-13T10:53:26Z" finished-at="2017-12-13T10:53:26Z">
+      <class name="com.project.Calculator_bjorn.SimpleCalculatorTest">
+        <test-method status="PASS" signature="DivisionTestZeroNumb()[pri:0, instance:DivisionTestZeroNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)]" name="DivisionTestZeroNumb" duration-ms="35" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionTestZeroNumb -->
+        <test-method status="PASS" signature="AdditionTestPositivNumb()[pri:0, instance:AdditionTestPositivNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)]" name="AdditionTestPositivNumb" duration-ms="32" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdditionTestPositivNumb -->
+        <test-method status="PASS" signature="SubstractionTestNegativeNumb()[pri:0, instance:SubstractionTestNegativeNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)]" name="SubstractionTestNegativeNumb" duration-ms="14" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubstractionTestNegativeNumb -->
+        <test-method status="PASS" signature="SubstractionTestZeroNumb()[pri:0, instance:SubstractionTestZeroNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)]" name="SubstractionTestZeroNumb" duration-ms="12" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubstractionTestZeroNumb -->
+        <test-method status="PASS" signature="AdditionTestZeroNumb()[pri:0, instance:AdditionTestZeroNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)]" name="AdditionTestZeroNumb" duration-ms="45" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdditionTestZeroNumb -->
+        <test-method status="PASS" signature="DivisionTestPositiveNumb()[pri:0, instance:DivisionTestPositiveNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)]" name="DivisionTestPositiveNumb" duration-ms="32" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionTestPositiveNumb -->
+        <test-method status="PASS" signature="DivisionTestNegativeNumb()[pri:0, instance:DivisionTestNegativeNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)]" name="DivisionTestNegativeNumb" duration-ms="47" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionTestNegativeNumb -->
+        <test-method status="PASS" signature="AdditionTestNegativeNumb()[pri:0, instance:AdditionTestNegativeNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)]" name="AdditionTestNegativeNumb" duration-ms="4" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdditionTestNegativeNumb -->
+        <test-method status="PASS" signature="MultiplyTestPositiveNumb()[pri:0, instance:MultiplyTestPositiveNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)]" name="MultiplyTestPositiveNumb" duration-ms="27" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyTestPositiveNumb -->
+        <test-method status="PASS" signature="MultiplyTestNegativeNumb()[pri:0, instance:MultiplyTestNegativeNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)]" name="MultiplyTestNegativeNumb" duration-ms="9" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyTestNegativeNumb -->
+        <test-method status="PASS" signature="MultiplyTestZeroNumb()[pri:0, instance:MultiplyTestZeroNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)]" name="MultiplyTestZeroNumb" duration-ms="3" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyTestZeroNumb -->
+        <test-method status="PASS" signature="SubtracktTestPositivNumb()[pri:0, instance:SubtracktTestPositivNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)]" name="SubtracktTestPositivNumb" duration-ms="4" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubtracktTestPositivNumb -->
+      </class> <!-- com.project.Calculator_bjorn.SimpleCalculatorTest -->
+      <class name="com.project.Calculator_bjorn.ScientificCalculatorTest">
+        <test-method status="PASS" signature="MathTestZeroNumb()[pri:0, instance:MathTestZeroNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="MathTestZeroNumb" duration-ms="10" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MathTestZeroNumb -->
+        <test-method status="PASS" signature="MathTestPositiveNumb()[pri:0, instance:MathTestPositiveNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="MathTestPositiveNumb" duration-ms="4" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MathTestPositiveNumb -->
+        <test-method status="PASS" signature="SquareTestPositive()[pri:0, instance:SquareTestPositive(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="SquareTestPositive" duration-ms="23" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SquareTestPositive -->
+        <test-method status="PASS" signature="TanTestPositivNumb()[pri:0, instance:TanTestPositivNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="TanTestPositivNumb" duration-ms="7" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TanTestPositivNumb -->
+        <test-method status="PASS" signature="MathTestNegativeNumb()[pri:0, instance:MathTestNegativeNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="MathTestNegativeNumb" duration-ms="6" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MathTestNegativeNumb -->
+        <test-method status="PASS" signature="SinTestZeroNumb()[pri:0, instance:SinTestZeroNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="SinTestZeroNumb" duration-ms="5" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinTestZeroNumb -->
+        <test-method status="PASS" signature="SquareTestZeros()[pri:0, instance:SquareTestZeros(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="SquareTestZeros" duration-ms="0" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SquareTestZeros -->
+        <test-method status="PASS" signature="TanTestNegativNumb()[pri:0, instance:TanTestNegativNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="TanTestNegativNumb" duration-ms="6" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TanTestNegativNumb -->
+        <test-method status="PASS" signature="CosTestZeroNumbers()[pri:0, instance:CosTestZeroNumbers(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="CosTestZeroNumbers" duration-ms="6" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CosTestZeroNumbers -->
+        <test-method status="PASS" signature="TanTestZeroNumb()[pri:0, instance:TanTestZeroNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="TanTestZeroNumb" duration-ms="5" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TanTestZeroNumb -->
+        <test-method status="PASS" signature="SinTestNegativeNumb()[pri:0, instance:SinTestNegativeNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="SinTestNegativeNumb" duration-ms="6" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinTestNegativeNumb -->
+        <test-method status="PASS" signature="SinTestPositivNumb()[pri:0, instance:SinTestPositivNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="SinTestPositivNumb" duration-ms="6" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinTestPositivNumb -->
+        <test-method status="PASS" signature="CosTestPositiveNumb()[pri:0, instance:CosTestPositiveNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="CosTestPositiveNumb" duration-ms="5" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CosTestPositiveNumb -->
+        <test-method status="PASS" signature="CosTestNegativeNumb()[pri:0, instance:CosTestNegativeNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="CosTestNegativeNumb" duration-ms="5" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CosTestNegativeNumb -->
+        <test-method status="PASS" signature="Math2TestZeroNumbers()[pri:0, instance:Math2TestZeroNumbers(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="Math2TestZeroNumbers" duration-ms="5" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Math2TestZeroNumbers -->
+        <test-method status="PASS" signature="Math2TestPositiveNumb()[pri:0, instance:Math2TestPositiveNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="Math2TestPositiveNumb" duration-ms="7" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Math2TestPositiveNumb -->
+        <test-method status="PASS" signature="SquareTestNegativeNumb()[pri:0, instance:SquareTestNegativeNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="SquareTestNegativeNumb" duration-ms="6" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SquareTestNegativeNumb -->
+        <test-method status="PASS" signature="Math2TestNegativeNumb()[pri:0, instance:Math2TestNegativeNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)]" name="Math2TestNegativeNumb" duration-ms="5" started-at="2017-12-13T11:53:26Z" finished-at="2017-12-13T11:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Math2TestNegativeNumb -->
+      </class> <!-- com.project.Calculator_bjorn.ScientificCalculatorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

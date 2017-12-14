@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 13 11:53:26 CET 2017</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (493 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.project.Calculator_bjorn.SimpleCalculatorTest.AdditionTestNegativeNumb()'><b>AdditionTestNegativeNumb</b><br>Test class: com.project.Calculator_bjorn.SimpleCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>AdditionTestNegativeNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.SimpleCalculatorTest.AdditionTestPositivNumb()'><b>AdditionTestPositivNumb</b><br>Test class: com.project.Calculator_bjorn.SimpleCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>AdditionTestPositivNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.SimpleCalculatorTest.AdditionTestZeroNumb()'><b>AdditionTestZeroNumb</b><br>Test class: com.project.Calculator_bjorn.SimpleCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>AdditionTestZeroNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.CosTestNegativeNumb()'><b>CosTestNegativeNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>CosTestNegativeNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.CosTestPositiveNumb()'><b>CosTestPositiveNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>CosTestPositiveNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.CosTestZeroNumbers()'><b>CosTestZeroNumbers</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>CosTestZeroNumbers(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.SimpleCalculatorTest.DivisionTestNegativeNumb()'><b>DivisionTestNegativeNumb</b><br>Test class: com.project.Calculator_bjorn.SimpleCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>DivisionTestNegativeNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.SimpleCalculatorTest.DivisionTestPositiveNumb()'><b>DivisionTestPositiveNumb</b><br>Test class: com.project.Calculator_bjorn.SimpleCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>DivisionTestPositiveNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.SimpleCalculatorTest.DivisionTestZeroNumb()'><b>DivisionTestZeroNumb</b><br>Test class: com.project.Calculator_bjorn.SimpleCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>DivisionTestZeroNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.Math2TestNegativeNumb()'><b>Math2TestNegativeNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>Math2TestNegativeNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.Math2TestPositiveNumb()'><b>Math2TestPositiveNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>Math2TestPositiveNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.Math2TestZeroNumbers()'><b>Math2TestZeroNumbers</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>Math2TestZeroNumbers(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.MathTestNegativeNumb()'><b>MathTestNegativeNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>MathTestNegativeNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.MathTestPositiveNumb()'><b>MathTestPositiveNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>MathTestPositiveNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.MathTestZeroNumb()'><b>MathTestZeroNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>MathTestZeroNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.SimpleCalculatorTest.MultiplyTestNegativeNumb()'><b>MultiplyTestNegativeNumb</b><br>Test class: com.project.Calculator_bjorn.SimpleCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>MultiplyTestNegativeNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.SimpleCalculatorTest.MultiplyTestPositiveNumb()'><b>MultiplyTestPositiveNumb</b><br>Test class: com.project.Calculator_bjorn.SimpleCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>MultiplyTestPositiveNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.SimpleCalculatorTest.MultiplyTestZeroNumb()'><b>MultiplyTestZeroNumb</b><br>Test class: com.project.Calculator_bjorn.SimpleCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>MultiplyTestZeroNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.SinTestNegativeNumb()'><b>SinTestNegativeNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>SinTestNegativeNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.SinTestPositivNumb()'><b>SinTestPositivNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>SinTestPositivNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.SinTestZeroNumb()'><b>SinTestZeroNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>SinTestZeroNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.SquareTestNegativeNumb()'><b>SquareTestNegativeNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>SquareTestNegativeNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.SquareTestPositive()'><b>SquareTestPositive</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>SquareTestPositive(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.SquareTestZeros()'><b>SquareTestZeros</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>SquareTestZeros(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.SimpleCalculatorTest.SubstractionTestNegativeNumb()'><b>SubstractionTestNegativeNumb</b><br>Test class: com.project.Calculator_bjorn.SimpleCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>SubstractionTestNegativeNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.SimpleCalculatorTest.SubstractionTestZeroNumb()'><b>SubstractionTestZeroNumb</b><br>Test class: com.project.Calculator_bjorn.SimpleCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>SubstractionTestZeroNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.SimpleCalculatorTest.SubtracktTestPositivNumb()'><b>SubtracktTestPositivNumb</b><br>Test class: com.project.Calculator_bjorn.SimpleCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>SubtracktTestPositivNumb(com.project.Calculator_bjorn.SimpleCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.TanTestNegativNumb()'><b>TanTestNegativNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>TanTestNegativNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.TanTestPositivNumb()'><b>TanTestPositivNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>TanTestPositivNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+<tr>
+<td title='com.project.Calculator_bjorn.ScientificCalculatorTest.TanTestZeroNumb()'><b>TanTestZeroNumb</b><br>Test class: com.project.Calculator_bjorn.ScientificCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>TanTestZeroNumb(com.project.Calculator_bjorn.ScientificCalculatorTest)</td></tr>
+</table><p>
+</body>
+</html>

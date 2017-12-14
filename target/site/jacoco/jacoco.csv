@@ -1,0 +1,15 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Calculator-bjorn,com.project.Calculator_bjorn,MainFrame.new ActionListener() {...},34,0,0,0,7,0,2,0,2,0
+Calculator-bjorn,com.project.Calculator_bjorn,MainFrame.new ActionListener() {...},34,0,0,0,7,0,2,0,2,0
+Calculator-bjorn,com.project.Calculator_bjorn,MainFrame.new ActionListener() {...},39,0,0,0,7,0,2,0,2,0
+Calculator-bjorn,com.project.Calculator_bjorn,MainFrame.new ActionListener() {...},50,0,0,0,11,0,2,0,2,0
+Calculator-bjorn,com.project.Calculator_bjorn,MainFrame.new ActionListener() {...},34,0,0,0,7,0,2,0,2,0
+Calculator-bjorn,com.project.Calculator_bjorn,ScientificCalculator,0,24,0,0,0,7,0,7,0,7
+Calculator-bjorn,com.project.Calculator_bjorn,MainFrame,425,0,0,0,84,0,4,0,4,0
+Calculator-bjorn,com.project.Calculator_bjorn,SimpleCalculator,0,19,0,0,0,5,0,5,0,5
+Calculator-bjorn,com.project.Calculator_bjorn,MainFrame.new ActionListener() {...},39,0,0,0,7,0,2,0,2,0
+Calculator-bjorn,com.project.Calculator_bjorn,MainFrame.new Runnable() {...},16,0,0,0,7,0,2,0,2,0
+Calculator-bjorn,com.project.Calculator_bjorn,MainFrame.new ActionListener() {...},39,0,0,0,7,0,2,0,2,0
+Calculator-bjorn,com.project.Calculator_bjorn,MainFrame.new ActionListener() {...},36,0,0,0,6,0,2,0,2,0
+Calculator-bjorn,com.project.Calculator_bjorn,MainFrame.new ActionListener() {...},34,0,0,0,7,0,2,0,2,0
+Calculator-bjorn,com.project.Calculator_bjorn,MainFrame.new ActionListener() {...},34,0,0,0,7,0,2,0,2,0
